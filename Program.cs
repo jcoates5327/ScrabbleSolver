@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.IO;
+using System.Collections;
+
+class Program {
+    static void Main(string[] args) {
+        string boardFile = "res\\small_board.txt";
+        Solver solver = new Solver(boardFile);
+
+
+        
+    }
+
+    
+}
